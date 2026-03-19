@@ -1,0 +1,69 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="Where Is My Train"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher"
+        android:networkSecurityConfig="@xml/network_security_config">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Flutter deferred components (required) -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
+        <!-- Background service for alarms/tracking -->
+        <service
+            android:name="be.tramckrijte.workmanager.BackgroundWorker"
+            android:exported="false" />
+    </application>
+
+    <!-- ══════════════════════════════════════════════════════════════╗
+         PERMISSIONS — see PRIVACY.md for rationale and usage notes   ║
+         ══════════════════════════════════════════════════════════════╝ -->
+
+    <!-- Internet access (live train status, crowdsource upload) -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- Cell tower reading (TelephonyManager / CellInfo) -->
+    <!-- Required for offline location triangulation -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- Fine/coarse location (needed for CellInfo API on Android 9+) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- Background location for continuous tracking (requested at runtime only if user enables) -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+
+    <!-- Vibration for arrival alarms -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!-- Receive boot completed for alarm restoration -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- Foreground service (battery-efficient background tracking) -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+
+    <!-- Optional: change Wi-Fi state for offline caching (not required, safe to omit) -->
+    <!-- <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/> -->
+</manifest>

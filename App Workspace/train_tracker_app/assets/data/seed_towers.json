@@ -1,0 +1,402 @@
+[
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 12345,
+        "lac": 1001,
+        "lat": 28.6419,
+        "lon": 77.2194,
+        "route_code": "DEL-MBI",
+        "station_near": "New Delhi"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 12346,
+        "lac": 1001,
+        "lat": 28.5888,
+        "lon": 77.2490,
+        "route_code": "DEL-MBI",
+        "station_near": "Hazrat Nizamuddin"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22201,
+        "lac": 1002,
+        "lat": 27.4924,
+        "lon": 77.6737,
+        "route_code": "DEL-MBI",
+        "station_near": "Mathura Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22202,
+        "lac": 1002,
+        "lat": 27.1591,
+        "lon": 77.9860,
+        "route_code": "DEL-MBI",
+        "station_near": "Agra Cantt"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22203,
+        "lac": 1002,
+        "lat": 26.4499,
+        "lon": 80.3319,
+        "route_code": "DEL-CNB",
+        "station_near": "Kanpur Central"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22204,
+        "lac": 1003,
+        "lat": 25.4358,
+        "lon": 81.8463,
+        "route_code": "DEL-HWH",
+        "station_near": "Prayagraj Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22205,
+        "lac": 1003,
+        "lat": 25.2765,
+        "lon": 83.1188,
+        "route_code": "DEL-HWH",
+        "station_near": "Pt. DDU Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22206,
+        "lac": 1003,
+        "lat": 24.7914,
+        "lon": 84.9994,
+        "route_code": "DEL-HWH",
+        "station_near": "Gaya Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22207,
+        "lac": 1003,
+        "lat": 25.6100,
+        "lon": 85.1749,
+        "route_code": "DEL-HWH",
+        "station_near": "Patna Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 22208,
+        "lac": 1004,
+        "lat": 22.5830,
+        "lon": 88.3421,
+        "route_code": "DEL-HWH",
+        "station_near": "Howrah Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33301,
+        "lac": 2001,
+        "lat": 22.3007,
+        "lon": 73.2088,
+        "route_code": "MBI-DEL",
+        "station_near": "Vadodara Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33302,
+        "lac": 2001,
+        "lat": 23.3441,
+        "lon": 75.0379,
+        "route_code": "MBI-DEL",
+        "station_near": "Ratlam Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33303,
+        "lac": 2001,
+        "lat": 25.1460,
+        "lon": 75.8492,
+        "route_code": "MBI-DEL",
+        "station_near": "Kota Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33304,
+        "lac": 2001,
+        "lat": 26.9220,
+        "lon": 75.7874,
+        "route_code": "MBI-JP",
+        "station_near": "Jaipur Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33305,
+        "lac": 2002,
+        "lat": 21.2090,
+        "lon": 72.8390,
+        "route_code": "MBI-ADI",
+        "station_near": "Surat"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33306,
+        "lac": 2002,
+        "lat": 23.0258,
+        "lon": 72.6014,
+        "route_code": "MBI-ADI",
+        "station_near": "Ahmedabad Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33307,
+        "lac": 2002,
+        "lat": 18.9691,
+        "lon": 72.8193,
+        "route_code": "MBI-PUNE",
+        "station_near": "Mumbai Central"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 33308,
+        "lac": 2003,
+        "lat": 18.5236,
+        "lon": 73.8478,
+        "route_code": "MBI-PUNE",
+        "station_near": "Pune Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 44401,
+        "lac": 3001,
+        "lat": 13.0827,
+        "lon": 80.2707,
+        "route_code": "MAS-SBC",
+        "station_near": "Chennai Central"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 44402,
+        "lac": 3001,
+        "lat": 12.9767,
+        "lon": 77.5713,
+        "route_code": "MAS-SBC",
+        "station_near": "Bengaluru City"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 44403,
+        "lac": 3001,
+        "lat": 11.0168,
+        "lon": 76.9558,
+        "route_code": "MAS-TVC",
+        "station_near": "Coimbatore Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 44404,
+        "lac": 3001,
+        "lat": 9.9193,
+        "lon": 78.1197,
+        "route_code": "MAS-TVC",
+        "station_near": "Madurai Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 44405,
+        "lac": 3002,
+        "lat": 8.4900,
+        "lon": 76.9525,
+        "route_code": "MAS-TVC",
+        "station_near": "Thiruvananthapuram Central"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 44406,
+        "lac": 3002,
+        "lat": 9.9837,
+        "lon": 76.2974,
+        "route_code": "ERS-MAS",
+        "station_near": "Ernakulam Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 55501,
+        "lac": 4001,
+        "lat": 17.4339,
+        "lon": 78.5025,
+        "route_code": "SC-DEL",
+        "station_near": "Secunderabad Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 55502,
+        "lac": 4001,
+        "lat": 21.1458,
+        "lon": 79.0882,
+        "route_code": "SC-NDLS",
+        "station_near": "Nagpur"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 55503,
+        "lac": 4001,
+        "lat": 21.2336,
+        "lon": 81.6337,
+        "route_code": "BSP-NDLS",
+        "station_near": "Raipur Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 55504,
+        "lac": 4001,
+        "lat": 22.0882,
+        "lon": 82.1505,
+        "route_code": "BSP-NDLS",
+        "station_near": "Bilaspur Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 55505,
+        "lac": 4002,
+        "lat": 16.5144,
+        "lon": 80.6396,
+        "route_code": "MAS-HWH",
+        "station_near": "Vijayawada Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 55506,
+        "lac": 4002,
+        "lat": 17.6868,
+        "lon": 83.2185,
+        "route_code": "MAS-HWH",
+        "station_near": "Visakhapatnam"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 66601,
+        "lac": 5001,
+        "lat": 26.8467,
+        "lon": 80.9462,
+        "route_code": "DEL-LKO",
+        "station_near": "Lucknow Charbagh"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 66602,
+        "lac": 5001,
+        "lat": 31.6342,
+        "lon": 74.8723,
+        "route_code": "DEL-ASR",
+        "station_near": "Amritsar Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 66603,
+        "lac": 5001,
+        "lat": 30.9002,
+        "lon": 75.8573,
+        "route_code": "DEL-ASR",
+        "station_near": "Ludhiana Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 66604,
+        "lac": 5001,
+        "lat": 30.3675,
+        "lon": 76.7789,
+        "route_code": "DEL-ASR",
+        "station_near": "Ambala Cantonment"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 66605,
+        "lac": 5002,
+        "lat": 23.2681,
+        "lon": 77.4089,
+        "route_code": "BPL-NDLS",
+        "station_near": "Bhopal Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 66606,
+        "lac": 5002,
+        "lat": 22.7196,
+        "lon": 75.8577,
+        "route_code": "INDB-BPL",
+        "station_near": "Indore Junction"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 77701,
+        "lac": 6001,
+        "lat": 26.1833,
+        "lon": 91.7458,
+        "route_code": "GHY-NDLS",
+        "station_near": "Guwahati"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 77702,
+        "lac": 6001,
+        "lat": 27.4728,
+        "lon": 94.9120,
+        "route_code": "GHY-DBRG",
+        "station_near": "Dibrugarh"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 88801,
+        "lac": 7001,
+        "lat": 19.0227,
+        "lon": 72.8423,
+        "route_code": "DR-PUNE",
+        "station_near": "Dadar"
+    },
+    {
+        "mcc": 404,
+        "mnc": 20,
+        "cid": 88802,
+        "lac": 7001,
+        "lat": 19.0671,
+        "lon": 72.9129,
+        "route_code": "LTT-NGP",
+        "station_near": "Lokmanya Tilak Terminus"
+    }
+]
